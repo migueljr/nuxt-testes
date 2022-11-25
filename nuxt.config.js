@@ -36,6 +36,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // Simple usage
+    '@nuxtjs/robots',
+
+    // With options
+    ['@nuxtjs/robots', { /* module options */ }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
